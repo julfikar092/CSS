@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  margin: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.progress {
+  background-color: red;
+  height: 0.25vh;
+  width: 0;
+  transition: width 2s ease-in-out;
+  /* animation: loading 2s ease-in-out 1; */
+}
+
+.btn:hover + .progress {
+  width: 100vw;
+}
+
+.btn:not(:hover) + .progress {
+  transition: none;
+}
+
+header {
+  height: 7.75vh;
+  background-color: black;
+}
+
+main {
+  height: 85vh;
+  background-color: aquamarine;
+}
+
+footer {
+  height: 7vh;
+  background-color: black;
+}
+
+@keyframes loading {
+  0% {
+    width: 0vw;
+  }
+
+  50% {
+    width: 50vw;
+  }
+
+  100% {
+    width: 100vw;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+img {
+  animation: rotate 1s infinite;
+}

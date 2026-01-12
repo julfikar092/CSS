@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: bisque;
+  height: 8vh;
+  display: flex;
+  justify-content: space-between; /* horizontal */
+  align-items: center; /* vertical */
+  padding: 0 20px;
+}
+
+.profile {
+  margin: 10px;
+}
+
+.profile img {
+  border-radius: 25px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1vw;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+main {
+  height: 86vh;
+}
+
+.top {
+  height: 50vh;
+  background-color: burlywood;
+  background-image: url("bc.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.middle {
+  height: 36vh;
+  display: flex;
+  justify-content: space-between;
+  background-color: antiquewhite;
+  align-items: center;
+}
+
+.box1,
+.box2,
+.box3 {
+  height: 200px;
+  width: 200px;
+  background-color: cornflowerblue;
+}
+
+.box1 img,
+.box2 img,
+.box3 img {
+  width: 100%; /* Makes image as wide as the 200px box */
+  height: 100%; /* Makes image as tall as the 100px box */
+  object-fit: cover;
+  border-radius: 25px;
+}
+.box1 {
+  background-color: cornflowerblue;
+}
+.box2 {
+  background-color: green;
+}
+.box3 {
+  background-color: yellow;
+}
+
+footer {
+  height: 6vh;
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

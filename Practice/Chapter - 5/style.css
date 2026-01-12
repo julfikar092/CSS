@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+nav {
+  background-color: black;
+  color: white;
+  min-height: 35px;
+  padding: 10px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 10px 20px;
+}
+
+nav ul li a {
+  color: aquamarine;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+main {
+  background-color: antiquewhite;
+  min-height: 1900px;
+  position: relative;
+  z-index: 2;
+}
+
+.fruits {
+  list-style: inside square;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 7vh;
+  text-align: center;
+}

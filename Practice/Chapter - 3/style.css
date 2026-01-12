@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 55px;
+  background-color: aqua;
+}
+
+.main {
+  border: 2px black solid;
+}

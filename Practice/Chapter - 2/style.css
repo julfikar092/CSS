@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: rgb(10, 10, 143);
+}
+
+.unorderlist {
+  height: fit-content;
+  width: fit-content;
+}
+
+.item {
+  height: 20px;
+  width: 60px;
+  background-color: antiquewhite;
+}
+
+.main {
+  color: red;
+}
+
+#img {
+  /* background-image: url("Untitled-1.jpg");
+  background-size: 300px 500px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 1533px;
+  width: 1500px;
+  border: 2px solid black;
+  background-color: blueviolet; */
+  background: red url("Untitled-1.jpg") no-repeat fixed right top / 3222px 350px;
+}

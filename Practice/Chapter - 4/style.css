@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.top {
+  background-color: black;
+  height: 45px;
+  display: block;
+}
+
+.left {
+  background-color: red;
+  display: inline-block;
+  height: 600px;
+  width: 49.85%;
+}
+
+.right {
+  background-color: green;
+  display: inline-block;
+  height: 600px;
+  width: 49.89%;
+}
+
+footer {
+  background-color: black;
+  font-family: "Baloo Bhai 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+  height: 45px;
+  color: white;
+  text-align: center;
+}
+.newLink {
+  text-decoration: none;
+}
